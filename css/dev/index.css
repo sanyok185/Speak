@@ -701,6 +701,8 @@ textarea.input {
   width: 100%;
 }
 .hero__woman {
+  /* .hero__woman--pc */
+  /* .hero__woman--mobile */
   z-index: -2;
 }
 .hero__woman img {
@@ -2076,6 +2078,8 @@ textarea.input {
   }
   .hero__woman--pc {
     display: none;
+  }
+  .hero__woman img {
     position: relative;
     right: 0;
   }
