@@ -2074,12 +2074,10 @@ textarea.input {
     display: grid;
     justify-items: center;
   }
-  .hero__woman img {
+  .hero__woman--pc {
+    display: none;
     position: relative;
     right: 0;
-  }
-  .hero__woman img:nth-child(1) {
-    display: none;
   }
   .hero__bg--desktop {
     display: none;
@@ -3531,7 +3529,7 @@ textarea.input {
   .header__content::before {
     display: none;
   }
-  .hero__woman img:nth-child(2) {
+  .hero__woman--mobile {
     display: none;
   }
   .hero__bg--mobile {
